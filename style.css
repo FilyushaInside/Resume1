@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: azure;
+    
+}
+p {
+    font-style: italic;
+    font-weight: strong;
+}
+.table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    text-align: center;
+    }
+    .table th, td:first-child {
+    background: #AFCDE7;
+    color: black;
+    padding: 10px 20px;
+    }
+    .table th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    }
+    .table td {
+    background: #D8E6F3;
+    }
+    .table th:first-child, td:first-child {
+    text-align: left;
+    }
+
+
+
