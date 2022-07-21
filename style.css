@@ -1,37 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
     font-family: roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
-    background-color: azure;
-    
+    background-color: #f1f1f1;
+    color: #0f141e;
+
+
 }
+
 p {
     font-style: italic;
     font-weight: strong;
 }
+
 .table {
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     font-size: 14px;
     border-collapse: collapse;
     text-align: center;
-    }
-    .table th, td:first-child {
+}
+
+.table th,
+td:first-child {
     background: #AFCDE7;
     color: black;
     padding: 10px 20px;
-    }
-    .table th, td {
+}
+
+.table th,
+td {
     border-style: solid;
     border-width: 0 1px 1px 0;
     border-color: white;
-    }
-    .table td {
+}
+
+.table td {
     background: #D8E6F3;
-    }
-    .table th:first-child, td:first-child {
+}
+
+.table th:first-child,
+td:first-child {
     text-align: left;
-    }
+}
+.card {
+    border: 2px solid bisque;
+    border-radius: 10px;
+    
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-3 {
+    background: ivory;
+}
+.container {
+    max-width: 960px;
+    padding: 20px 5px 20px 40px;
+    margin:20px 5px 20px 40px;
+}
+img {box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);}
+.card.bg-green{
+margin: 20px 5px 20px 40px;
+padding: 20px 5px 20px 40px;
+}
+.card.bg-yellow {
+    margin:20px 5px 20px 40px;
+    padding: 20px 5px 20px 40px;
+}
+.card.bg-3 {
+    margin:20px 5px 20px 40px;
+    padding: 20px 5px 20px 40px;
 
-
-
+}
+.first {
+    margin:40px 5px 20px 40px;
+    padding: 20px 5px 20px 40px;
+}
