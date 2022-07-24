@@ -44,9 +44,19 @@ td {
 td:first-child {
     text-align: left;
 }
+.avatar {
+width: 200px;
+border-radius: 25px;
+box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.info p {
+    margin: 0px;
+}
 .card {
     border: 2px solid bisque;
     border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
     
 }
 .bg-green {
@@ -59,11 +69,10 @@ td:first-child {
     background: ivory;
 }
 .container {
-    max-width: 960px;
-    padding: 20px 5px 20px 40px;
-    margin:20px 5px 20px 40px;
+   max-width: 750px;
+   margin: auto;
+   padding-top: 30px;
 }
-img {box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);}
 .card.bg-green{
 margin: 20px 5px 20px 40px;
 padding: 20px 5px 20px 40px;
@@ -71,6 +80,7 @@ padding: 20px 5px 20px 40px;
 .card.bg-yellow {
     margin:20px 5px 20px 40px;
     padding: 20px 5px 20px 40px;
+    
 }
 .card.bg-3 {
     margin:20px 5px 20px 40px;
